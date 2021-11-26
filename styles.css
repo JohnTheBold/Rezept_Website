@@ -1,0 +1,54 @@
+/*Styles for index.html*/
+
+* {color: aqua;}
+
+.header_pu{ color: #8a2be2;}
+.topi{color: red;}
+
+/*selects two different  classes */
+.head, .top{
+    color: green;
+    background-color: blue;
+}
+
+/* select multiple classes of same type (class= "subsection header") of one object */
+
+.subsection.header{color: red;}
+
+
+/* selects
+
+<div class="ancestor"> 
+
+    <div class = "child">
+
+    </div>
+
+
+</div>
+
+
+*/
+.ancestor .child{
+    color: rosybrown;
+}
+
+/* color creation */
+p {
+    /*website will use a list of fonts go through until a font can be used*/
+    font-family: "Times New Roman", sans-serif;
+
+    /*font size */
+    font-size: 22px;
+    /*font thickness */
+    font-weight: 400;
+    /* text alignement */
+    text-align: center;
+
+    /* hex example: */
+    color: #1100ff;
+    /* rgb example: */
+    color: rgb(100, 0, 127);
+    /* hsl example: */
+    color: hsl(15, 82%, 56%);
+  }
