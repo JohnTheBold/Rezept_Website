@@ -6,6 +6,25 @@
 body {
         background-color: rgb(20, 129, 165);
         font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 38px;
 
         color: rgb(235, 220, 9);
+    }
+
+a {
+        color: rgb(235, 220, 9);
+    }
+
+
+.Gang {
+        color: rgb(12, 42, 97);
+        font-weight: bold;
+        font-size: 50px;
+    }
+
+.Speise {
+        color: rgb(235, 220, 9);
+        font-weight: normal;
+        font-size: 38px;
+
     }
